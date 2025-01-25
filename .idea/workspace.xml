@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a779b820-dd60-458f-8ab7-41044855b78e" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/home/templates/home/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/templates/home/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gt_movies_store.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gt_movies_store.iml" afterDir="false" />
+    <list default="true" id="a779b820-dd60-458f-8ab7-41044855b78e" name="Changes" comment="Base website Template Created">
+      <change afterPath="$PROJECT_DIR$/gt_movies_store/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt_movies_store/static/img/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt_movies_store/static/img/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt_movies_store/static/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt_movies_store/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gt_movies_store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/gt_movies_store/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt_movies_store/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/gt_movies_store/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/home/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/home/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/home/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +60,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gt_movies_store/static/img" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="gt_movies_store" type="Python.DjangoServer" factoryName="Django server">
       <module name="gt_movies_store" />
@@ -98,7 +107,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737843095186</updated>
-      <workItem from="1737843096181" duration="865000" />
+      <workItem from="1737843096181" duration="1985000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -116,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737843133931</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Base website Template Created">
+      <option name="closed" value="true" />
+      <created>1737843996728</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737843996728</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +157,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Base website Template Created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Base website Template Created" />
   </component>
 </project>
