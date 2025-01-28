@@ -22,7 +22,7 @@ A Django-based web application for Georgia Tech's CS 2340 course that enables us
 [Setup instructions here]
 
 ## Team Members
-[Team member details here]
+Vineeth Sendilraj, John Kim, Frank Chang, Tom Kim
 
 ## Project Structure
 [Project structure details]
