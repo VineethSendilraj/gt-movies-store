@@ -14,5 +14,3 @@ venv/
 # Ignore database files
 db.sqlite3
 
-/accounts/__pycache__
-/movies/__pycache__
