@@ -7,7 +7,8 @@ from django.contrib.auth.decorators import login_required
 @login_required
 def logout(request):
     auth_logout(request)
-    return redirect('home.index')
+    return redirect('movies.index')
+
 def login(request):
     template_data = {}
     template_data['title'] = 'Login'
@@ -22,7 +23,7 @@ def login(request):
             auth_login(request, user)
             if user.is_staff:
                 return redirect('/admin/')
-            return redirect('home.index')
+            return redirect('movies.index')
 def signup(request):
     template_data = {}
     template_data['title'] = 'Sign up'
