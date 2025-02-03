@@ -20,6 +20,8 @@ def login(request):
             return render(request, 'accounts/login.html', {'template_data': template_data})
         else:
             auth_login(request, user)
+            if user.is_staff:
+                return redirect('/admin/')
             return redirect('home.index')
 def signup(request):
     template_data = {}
