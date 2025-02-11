@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a779b820-dd60-458f-8ab7-41044855b78e" name="Changes" comment="Changed gitignore">
-      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/orders.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart/templates/cart/purchase.html" afterDir="false" />
+    <list default="true" id="a779b820-dd60-458f-8ab7-41044855b78e" name="Changes" comment="Finished code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/templates/cart/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart/templates/cart/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cart/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cart/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739300898921</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Finished code">
+      <option name="closed" value="true" />
+      <created>1739309574943</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739309574943</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +176,7 @@
     <MESSAGE value="Base website Template Created" />
     <MESSAGE value="Made website responsive" />
     <MESSAGE value="Changed gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed gitignore" />
+    <MESSAGE value="Finished code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished code" />
   </component>
 </project>
