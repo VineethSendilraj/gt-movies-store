@@ -22,12 +22,13 @@ from django.views.generic import RedirectView
 
 urlpatterns = [
 
-    path('', RedirectView.as_view(url='/movies/', permanent=False)),
+    # path('', RedirectView.as_view(url='/movies/', permanent=False)),
     
     path('accounts/', include('accounts.urls')),
     path('admin/', admin.site.urls),
     path('movies/', include('movies.urls')),
     path('cart/', include('cart.urls')),
+    path('', include('home.urls')),
 ]
 
 urlpatterns += static(settings.MEDIA_URL,
